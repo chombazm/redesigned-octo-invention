@@ -1,0 +1,18 @@
+{
+  "name": "lite-movie-backend",
+  "version": "1.0.0",
+  "description": "lite movie app backend. Node express learing path 2021.",
+  "main": "index.js",
+  "repository": "https://github.com/chombazm/redesigned-octo-invention",
+  "author": "Chombazm",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  }
+}
